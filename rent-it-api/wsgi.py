@@ -1,6 +1,6 @@
 import os
 
-from rent_it_api import create_app
+from rent_it_api_v1 import create_app
 
 app = create_app()
 

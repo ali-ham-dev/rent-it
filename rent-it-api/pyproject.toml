@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "rent-it-api"
+version = "0"
+description = "'Rent-It E-commerce API'"
+authors = ["Ali Hamood <alihamood96@gmail.com>"]
+license = "copyright"
+readme = "README.md"
+packages = [{include = "rent_it_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+flask = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
